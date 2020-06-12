@@ -2,9 +2,9 @@
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
-const increase = document.getElementById("btn increase");
-const decrease = document.getElementById("btn decrease");
-const reset = document.getElementById("btn reset");
+const increase = document.querySelector(".btn increase");
+const decrease = document.querySelector(".btn decrease");
+const reset = document.querySelector(".btn reset");
 
 const count = document.querySelector("#count");
 let value = parseInt(count.innerHTML);
