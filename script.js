@@ -2,4 +2,8 @@
     to your site with Javascript */
 
 // prints "hi" in the browser's dev tools console
-console.log("hi");
+const increase = document.querySelector("#increase");
+const decrease = document.querySelector("#decrease");
+const reset = document.querySelector("#reset")
+
+const count = document.
