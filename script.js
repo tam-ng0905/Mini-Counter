@@ -25,6 +25,14 @@ function decreaseAction(){
   })
 }
 
+function resetAction(){
+  reset.addEventListener('click', () => {
+    value = 0;
+    count.innerText = value;
+  })
+}
 
+
+resetAction();
 increaseAction();
 decreaseAction();

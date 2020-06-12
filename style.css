@@ -1,11 +1,29 @@
 /* CSS files add styling rules to your content */
 
+:root{
+  
+}
+
+
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  padding: 0px;
 }
 
 h1 {
   font-style: italic;
   color: #373fff;
+}
+
+main {
+  margin: auto;
+}
+
+#count-section{
+  position: relative;
+  margin: 50px;
+  background: #123211;
+  font-size: 56px;
+  font-weight: Bold;
 }
