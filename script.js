@@ -6,7 +6,7 @@ const increase = document.querySelector(".btn increase");
 const decrease = document.querySelector(".btn decrease");
 const reset = document.querySelector(".btn reset");
 
-const count = document.querySelector("#count");
+const count = document.querySelector(".count");
 let value = parseInt(count.innerHTML);
 
 function increaseAction() {

@@ -1,7 +1,9 @@
 /* CSS files add styling rules to your content */
 
 :root{
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -20,22 +22,25 @@ main {
   margin: auto;
 }
 
-#count-section{
-  display: block;
-  position: relative;
-  margin: 50px;
+#count-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  height: 150px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
-  height: 150px;
+  
   font-size: 80px;
   font-weight: Bold;
+  float: none;
 }
 
-#count {
-  
+.count {
   position: absolute;
-  margin: 10px auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
